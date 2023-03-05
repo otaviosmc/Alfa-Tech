@@ -1,0 +1,230 @@
+/* ESTILOS GERAIS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.azul {
+  color: #2f86d6;
+}
+.azul-bg {
+  background-color: #2f86d6;
+}
+.branco-bg {
+  background-color: #fff;
+}
+.branco {
+  color: #fff;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.container2 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.negrito {
+  font-weight: bold;
+}
+.paragrafo {
+  font-size: 16px;
+}
+h1 {
+  font-size: 32px;
+}
+.subt2 {
+  font-size: 28px;
+}
+.cinza-bg {
+  background-color: #233032;
+}
+.cinza-claro-bg {
+  background-color: #f1f3f7;
+}
+.preto {
+  color: #000;
+}
+/* ESTILOS ESPECÍFICOS */
+/* ---------------------------MENU--------------------------- */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 80px;
+}
+.links a {
+  margin: 0 5px;
+  color: #233032;
+  font-size: 18px;
+  text-decoration: none;
+}
+.links-precos a {
+  margin: 0 5px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+/* ---------------------------BANNER--------------------------- */
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner p {
+  margin: 15px auto;
+}
+/* ---------------------------PRIMEIRO AD--------------------------- */
+
+.anuncio {
+  display: flex;
+  padding: 30px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.anuncio h2 {
+  font-size: 24px;
+}
+.anuncio a {
+  padding: 20px 20px 20px 40px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+}
+.anuncio a::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url("/assets/img/icone-foguete.png");
+  background-size: 20px 20px;
+  left: 13px;
+  top: 36%;
+}
+/* ---------------------------info--------------------------- */
+#info {
+  padding: 70px 0px;
+}
+#info h2 {
+  font-size: 32px;
+  text-align: center;
+}
+.infos-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+}
+.infos-flex img {
+  width: 180px;
+}
+.informacao {
+  margin: 0 auto;
+  text-align: center;
+}
+#info h3 {
+  margin: 10px auto;
+  font-size: 18px;
+  margin: 15px auto;
+}
+/* ---------------------------tabela--------------------------- */
+#planos {
+  padding: 70px 0px;
+}
+#planos h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 30px auto;
+}
+.tabela-planos {
+  box-shadow: 0px 0px 15px 15px #2f86d6;
+  text-align: center;
+  width: 100%;
+}
+.tabela-planos {
+  padding: 30px;
+}
+.tabela-planos img {
+  width: 150px;
+}
+.tabela-planos thead span {
+  color: #a89f9f;
+  font-size: 13px;
+}
+.tabela-planos td {
+  padding: 10px 0px;
+}
+.tabela-planos tbody td:hover {
+  background: #2f86d6;
+  color: #fff;
+}
+.tabela-planos tbody tr:nth-of-type(odd) {
+  font-size: 16px;
+  background-color: #f6f6f6;
+}
+.tabela-planos tbody tr:nth-of-type(even) {
+  font-size: 16px;
+  background-color: #f1f3f7;
+}
+/* ---------------------------contatos--------------------------- */
+.contatos {
+  padding: 60px 0px;
+}
+.contatos .logo {
+  margin: 0 auto;
+  justify-content: center;
+  margin: 40px auto;
+}
+.contatos {
+  text-align: center;
+}
+.contatos p {
+  margin: 20px auto;
+}
+/* ---------------------------footer--------------------------- */
+footer {
+  text-align: center;
+  padding: 30px 0px;
+}
+/* ---------------------------tabela ta pag preços--------------------------- */
+.tabela {
+  padding: 60px 0px;
+}
+.tabela-precos {
+  width: 100%;
+}
+.tabela-precos td,
+.tabela-precos th {
+  padding: 20px 10px;
+}
+th:first-child {
+  background-color: #fff;
+}
+td:first-child {
+  background-color: #f1f3f7;
+}
+.check {
+  position: relative;
+}
+.check::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #2f86d6;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10px 0 0 -10px;
+}
